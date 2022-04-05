@@ -48,14 +48,15 @@ we need to dispatch an action to pass it through the reducer to access state.
 
 ```
 To setup Redux in React App, we need to
-1. npm install react-redux and redux.
-2. import Provider from react-redux and surround app with it.
-3. create store directory in src. Inside store we need to create directory for actions, and reducers and a types.js.
-4. In types.js define the ActionTypes
-5. In reducers directory define the app initial state, and reducer functions.
-6. In action direction create a file to declare payloads for each action type.
-7. In react app create mapStateToProps, and mapActionsTo props function.
-8. connect react with redux with the connect medthod imported from react-redux
+- npm install react-redux and redux.
+- import Provider from react-redux and surround app with it.
+- create store directory in src. Inside store we need to create directory for actions, and reducers and a types.js.
+- In types.js define the ActionTypes
+- In reducers directory define the app initial state, and reducer functions.
+- In action direction create a file to declare payloads for each action type.
+- In store directory create index.js, inside index.js import createStore and create a new store function.
+- In react app create mapStateToProps, and mapActionsTo props function.
+- connect react with redux with the connect medthod imported from react-redux
 ```
 
 ## Submission
