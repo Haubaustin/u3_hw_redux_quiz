@@ -28,6 +28,7 @@ It cycles an action through all of the steps in react
 
 4. What do we use in order to manage different pieces of state?
 
+
 ```
 store
 ```
